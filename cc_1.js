@@ -10,7 +10,7 @@ console.log(isActive, typeof(isActive));
 
 //task 2
 
-let products = ["water bottle", "brita jug", "brita filter"]
+let products = ["water bottle", "brita jug", "brita filter"];
 const productDetails={
     name: Hydroflask
     price: 40
