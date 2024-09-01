@@ -39,6 +39,7 @@ accountBalance %= 19
 console.log ('Remaining balance after splitting the money:',accountBalance);
 
 //task 4
+
 let employeeScore1= 71
 let employeeScore2= 74
 
@@ -48,3 +49,21 @@ console.log ('Employee 1 has a score that is greater than or equal to that of Em
 console.log ('Employee 1 has a score that is less than or equal to that of Employee 2:', employeeScore1<= employeeScore2);
 console.log ('Employee 1 has a score that is stricly equal to that of Employee 2:', employeeScore1===employeeScore2);
 console.log ('Employee 1 has a score that is strictly not equal to that of Employee 2:', employeeScore1!==employeeScore2);
+
+//task 5
+
+let hasKeyCard= false;
+let hasPermission= true;
+
+let SpecialAccess= hasKeyCard && hasPermission;
+console.log ('Has special access:',SpecialAccess);
+
+let GeneralAccess = hasKeyCard || hasPermission;
+console.log('Has general access:', GeneralAccess);
+
+let noKeyCard = !KeyCard;
+console.log ('No keycard:', noKeyCard);
+
+let noPermission= !hasPermission;
+console.log ('No permission:', noPermission);
+
