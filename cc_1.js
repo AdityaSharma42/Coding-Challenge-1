@@ -38,3 +38,13 @@ console.log ('Balance after shareholder gets their share:',accountBalance);
 accountBalance %= 19
 console.log ('Remaining balance after splitting the money:',accountBalance);
 
+//task 4
+let employeeScore1= 71
+let employeeScore2= 74
+
+console.log('Employee 1 has a higher score than Employee 2:', employeeScore1> employeeScore2);
+console.log ('Employee 1 has a lower score than Employee 2:',employeeScore1< employeeScore2);
+console.log ('Employee 1 has a score that is greater than or equal to that of Employee 2:', employeeScore1>= employeeScore2);
+console.log ('Employee 1 has a score that is less than or equal to that of Employee 2:', employeeScore1<= employeeScore2);
+console.log ('Employee 1 has a score that is stricly equal to that of Employee 2:', employeeScore1===employeeScore2);
+console.log ('Employee 1 has a score that is strictly not equal to that of Employee 2:', employeeScore1!==employeeScore2);
