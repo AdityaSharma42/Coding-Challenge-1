@@ -61,7 +61,7 @@ console.log ('Has special access:',SpecialAccess);
 let GeneralAccess = hasKeyCard || hasPermission;
 console.log('Has general access:', GeneralAccess);
 
-let noKeyCard = !KeyCard;
+let noKeyCard = !hasKeyCard;
 console.log ('No keycard:', noKeyCard);
 
 let noPermission= !hasPermission;
