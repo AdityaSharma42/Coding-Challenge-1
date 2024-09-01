@@ -12,8 +12,8 @@ console.log(isActive, typeof(isActive));
 
 let products = ["water bottle", "brita jug", "brita filter"];
 const productDetails={
-    name: Hydroflask,
-    price: 40,
+    name: products,
+    price: 120,
     inStock: true,
 }
 console.log (products, productDetails);
